@@ -330,8 +330,4 @@ urlpatterns += [
     path('api/contentstore/', include('cms.djangoapps.contentstore.rest_api.urls'))
 ]
 
-# Jupyter Viewer XBlock Endpoint
-urlpatterns += [
-    path(r'^api/jupyter/', include('xblock_jupyter_viewer.rest.urls', 
-                                  namespace='xblock_jupyter_viewer')),
-]
+

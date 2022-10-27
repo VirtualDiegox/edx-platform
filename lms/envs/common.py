@@ -3228,9 +3228,6 @@ INSTALLED_APPS = [
 
     # Blockstore
     'blockstore.apps.bundles',
-    
-    # Jupyter Notebook Viewer XBlock
-    'xblock_jupyter_viewer',
 ]
 
 ######################### CSRF #########################################
